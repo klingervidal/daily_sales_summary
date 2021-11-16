@@ -1,5 +1,5 @@
-import pandas as pd, sys
-from datetime import datetime as dt
+import sys
+import pandas as pd
 
 
 def read_csv(filepath):
@@ -81,7 +81,7 @@ def analyse(filepath, return_type):
         }
     }
 
-    if return_type == 'dt':
+    if return_type == 'df':
         return sum_sales_value
     
     elif return_type == 'dict':

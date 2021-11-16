@@ -1,5 +1,6 @@
-import PySimpleGUI as sg, csv_analyser, sys
-from datetime import datetime as dt
+import sys
+import PySimpleGUI as sg
+import csv_analyser
 
 
 sg.theme("DarkTeal10")
@@ -27,7 +28,7 @@ def create_main_window():
 
 
 def create_second_window(filepath):
-    sales = csv_analyser.analyse(filepath, 'dt')
+    sales = csv_analyser.analyse(filepath, 'df')
 
     list_sales = sales.values.tolist()
 

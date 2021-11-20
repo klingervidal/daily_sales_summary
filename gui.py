@@ -83,8 +83,11 @@ while True:
     event, values = active_window.read()
 
     if event == "-START-":
-        main_window.hide()
-        active_window = create_second_window(values["-FILE-"])
+        if values['-FILE-'] != '':
+            main_window.hide()
+            active_window = create_second_window(values["-FILE-"])
+        else:
+            sg.Popup('Favor selecionar o arquivo a ser carregado no campo "Selecione o seu arquivo CSV"', keep_on_top=True)
     
     elif event == "-BACK-":
         active_window.hide()

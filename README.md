@@ -28,6 +28,6 @@
 - O melhor dia do mês em valor de vendas;
 - O pior dia do mês em valor de vendas;
 
-### <br> Nota: Foi desenvolvido apenas para praticar e estudar a linguagem Python. A escrita do código e todos os comentários estão em inglês apenas para praticar o idioma inglês e porque também é considerado uma boa prática na comunidade de desenvolvedores, sempre que apropriado, implementar os códigos em inglês. <br> <br>
+### <br>Observação: Esta aplicação foi desenvolvida apenas para praticar e estudar a Linguagem Python. A escrita do código e todos os comentários estão em inglês apenas para praticar o idioma inglês e porque também é considerado uma boa prática na comunidade de desenvolvedores, sempre que apropriado, implementar os códigos em inglês. <br> <br>
 
 > ## Obrigado pela visita.
